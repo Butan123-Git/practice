@@ -1,0 +1,14 @@
+The process of creating link in Linux is as follows
+1. There are two types of link majorly
+Hard link
+Soft link
+
+Definition of Hard Link--> It is the exact copy of Original file. In hard link, deleting a link can destroy/delete the data as well.
+To create a hard link, the command is - ln <source dir/target dir> "Name of the link, i.e. mylink"\n
+It cannot be used in multifile system but it can work as a broken link.
+
+
+Softlink-->
+
+It is a symbolic link like a shortcut or pointer to the Original file.
+The command to run this---> ln -s <source dir/hard link/target file> "Name of the link, i.e. Softlink"\n.
