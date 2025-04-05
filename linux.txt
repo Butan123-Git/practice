@@ -1,0 +1,3 @@
+# This is linux net-tools package learnings.
+# To check the ip configuration, the commands are
+ifconfig, ip addr, ping, ok
