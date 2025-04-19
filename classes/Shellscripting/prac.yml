@@ -1,0 +1,11 @@
+# First Script of YAML
+# It sounds very interesting to write YAML script.
+
+name: Provat Chatterjee
+age: 28
+DOB: 23/11/1996
+Occupation: Salaried
+duties:
+  -Job: Network Architect
+  -Company: Xyz
+  -Major role: Quality manager
