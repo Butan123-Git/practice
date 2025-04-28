@@ -17,7 +17,7 @@ validate_email() {
 
 # Loop until the user enters a valid email
 while true; do
-    read -p "Please enter your email address to validate: " email
+    read -p "Please enter your email address to v   alidate: " email
     validate_email "$email"
     if [[ $? -eq 0 ]]; then
         echo "Great! You have entered a valid email address: $email"
